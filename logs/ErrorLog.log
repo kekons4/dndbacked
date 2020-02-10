@@ -1,0 +1,42 @@
+2020-02-10 14:35:08.969  INFO 42481 --- [main] com.dd.GameApplication                   : Starting GameApplication on L-C02V34QGG8WN.local with PID 42481 (/Users/vs000907/Desktop/game/target/classes started by vs000907 in /Users/vs000907/Desktop/game)
+2020-02-10 14:35:08.984  INFO 42481 --- [main] com.dd.GameApplication                   : No active profile set, falling back to default profiles: default
+2020-02-10 14:35:09.828  INFO 42481 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-10 14:35:09.868  INFO 42481 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 0 JPA repository interfaces.
+2020-02-10 14:35:10.308  INFO 42481 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e3d23f2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-10 14:35:10.687  INFO 42481 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (https) 8080 (http)
+2020-02-10 14:35:10.748  INFO 42481 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-10 14:35:10.748  INFO 42481 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-10 14:35:10.895  INFO 42481 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/game]   : Initializing Spring embedded WebApplicationContext
+2020-02-10 14:35:10.895  INFO 42481 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1848 ms
+2020-02-10 14:35:11.092  INFO 42481 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-10 14:36:26.782  INFO 42863 --- [main] com.dd.GameApplication                   : Starting GameApplication on L-C02V34QGG8WN.local with PID 42863 (/Users/vs000907/Desktop/game/target/classes started by vs000907 in /Users/vs000907/Desktop/game)
+2020-02-10 14:36:26.786  INFO 42863 --- [main] com.dd.GameApplication                   : No active profile set, falling back to default profiles: default
+2020-02-10 14:36:27.586  INFO 42863 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-10 14:36:27.635  INFO 42863 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31ms. Found 0 JPA repository interfaces.
+2020-02-10 14:36:28.092  INFO 42863 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$af29c421] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-10 14:36:28.437  INFO 42863 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 3000 (https) 8080 (http)
+2020-02-10 14:36:28.493  INFO 42863 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-02-10 14:36:28.493  INFO 42863 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-10 14:36:28.609  INFO 42863 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/game]   : Initializing Spring embedded WebApplicationContext
+2020-02-10 14:36:28.610  INFO 42863 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1766 ms
+2020-02-10 14:36:28.786  INFO 42863 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-02-10 14:36:29.112  INFO 42863 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-02-10 14:36:29.172  INFO 42863 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-02-10 14:36:29.254  INFO 42863 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.0.Final}
+2020-02-10 14:36:29.256  INFO 42863 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-02-10 14:36:29.438  INFO 42863 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-10 14:36:29.616  INFO 42863 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-02-10 14:36:30.524  INFO 42863 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-10 14:36:30.527  INFO 42863 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-10 14:36:30.887  INFO 42863 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-10 14:36:31.422  INFO 42863 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 3000 (https) 8080 (http) with context path '/game'
+2020-02-10 14:36:31.426  INFO 42863 --- [main] com.dd.GameApplication                   : Started GameApplication in 5.028 seconds (JVM running for 5.431)
+2020-02-10 14:36:36.832  INFO 42863 --- [https-jsse-nio-3000-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/game]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-10 14:36:36.832  INFO 42863 --- [https-jsse-nio-3000-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-02-10 14:36:36.843  INFO 42863 --- [https-jsse-nio-3000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-02-10 14:39:32.177  INFO 42863 --- [Thread-4] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-10 14:39:32.178  INFO 42863 --- [Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-10 14:39:32.181  INFO 42863 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-02-10 14:39:32.222  INFO 42863 --- [Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
