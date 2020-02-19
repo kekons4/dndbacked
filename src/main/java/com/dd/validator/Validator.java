@@ -10,8 +10,12 @@ public class Validator {
 	}
 	
 	public static Boolean validateEmailId(String emailId){
-		if(emailId.length() >= 8){
-			return true;
+		if(emailId.length() >= 8 && emailId.contains("@")){
+			if(emailId.endsWith(".com") || emailId.endsWith(".net") || emailId.endsWith(".org") || emailId.endsWith(".edu")) {
+				return true;
+			} else {
+				return false;
+			}
 		} else{
 			return false;
 		}

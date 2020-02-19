@@ -94,7 +94,7 @@ public class api {
 		}
 	}
 	
-	//Updates Character Stats
+	//Levels up Character Stats
 	@PostMapping(value = "lvlUpCharacter")
 	public ResponseEntity<String[]> lvlUpCharacter(@RequestBody Users user) throws Exception{
 		try {
